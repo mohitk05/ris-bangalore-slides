@@ -8,12 +8,20 @@ import Four from "./slides/4";
 import Five from "./slides/5";
 import Six from "./slides/6";
 import Seven from "./slides/7";
-import Eight from "./slides/8";
 import Nine from "./slides/9";
 import Ten from "./slides/10";
 import Eleven from "./slides/11";
-import Twelve from './slides/12';
-import Thirteen from './slides/13';
+import Twelve from "./slides/12";
+import Thirteen from "./slides/13";
+import Fourteen from "./slides/14";
+import Fifteen from "./slides/15";
+import Sixteen from "./slides/16";
+import Seventeen from "./slides/17";
+import Eighteen from "./slides/18";
+import Nineteen from "./slides/19";
+import Twenty from "./slides/20";
+import Twentyone from "./slides/21";
+import Twentytwo from "./slides/22";
 
 function App() {
   let cId = window.location.pathname.replace("/", "");
@@ -56,9 +64,6 @@ const stories = [
     content: Seven
   },
   {
-    content: Eight
-  },
-  {
     content: Nine
   },
   {
@@ -72,6 +77,33 @@ const stories = [
   },
   {
     content: Thirteen
+  },
+  {
+    content: Fourteen
+  },
+  {
+    content: Fifteen
+  },
+  {
+    content: Sixteen
+  },
+  {
+    content: Seventeen
+  },
+  {
+    content: Eighteen
+  },
+  {
+    content: Nineteen
+  },
+  {
+    content: Twenty
+  },
+  {
+    content: Twentyone
+  },
+  {
+    content: Twentytwo
   }
 ];
 

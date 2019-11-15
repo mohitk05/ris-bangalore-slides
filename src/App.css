@@ -1,29 +1,83 @@
 .App {
-	font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
 }
 
 code {
-	color: deeppink;
+  color: deeppink;
 }
 
 .slider {
-	height: 10px;
-	background: deeppink;
-	transform: scaleX(1);
-	margin-top: 20px;
-	width: 200px;
-	transform: scaleX(1);
-	animation-name: slide;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	transform-origin: left center;
+  height: 10px;
+  background: deeppink;
+  transform: scaleX(1);
+  margin-top: 20px;
+  width: 200px;
+  transform: scaleX(1);
+  animation-name: slide;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  transform-origin: left center;
 }
 
 @keyframes slide {
-	from {
-		transform: scaleX(0);
-	}
-	to {
-		transform: scaleX(1);
-	}
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.boxSlide {
+  animation-name: shift;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 50px;
+  width: 50px;
+  background-color: deeppink;
+  transform: translateX(-100px);
+}
+
+@keyframes shift {
+  0% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+
+.boxStepSlide {
+  animation-name: shiftStep;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  height: 50px;
+  width: 50px;
+  background-color: deeppink;
+  transform: translateX(-100px);
+}
+
+@keyframes shiftStep {
+  0% {
+    transform: translateX(-100px);
+  }
+  25% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
 }

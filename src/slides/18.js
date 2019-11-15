@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "./../Layout";
 
-export default ({ action, isPaused }) => {
+export default ({ action }) => {
   useEffect(() => {
     setTimeout(() => {
       action("pause");
@@ -10,7 +10,12 @@ export default ({ action, isPaused }) => {
   return (
     <Layout>
       <div style={styles}>
-        <h1>Hello, Bengaluru!</h1>
+        <h1>Animating using JavaScript</h1>
+        <img
+          src="js_1.png"
+          alt="js1"
+          style={{ width: "100%", marginTop: "10%" }}
+        />
       </div>
     </Layout>
   );
@@ -18,9 +23,7 @@ export default ({ action, isPaused }) => {
 
 const styles = {
   height: "100%",
-  width: "100%",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  width: "60%",
+  margin: "auto",
   textAlign: "center"
 };
