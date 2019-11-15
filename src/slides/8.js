@@ -9,7 +9,7 @@ export default ({ action }) => {
     }, [])
     return <Layout>
         <div style={styles}>
-            <h1>But here, there's a lot of dependency over user actions and the animation.</h1>
+            <h1>But here, there's a lot of interdependence between user actions and the animation.</h1>
         </div>
     </Layout>
 }

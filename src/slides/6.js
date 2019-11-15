@@ -11,14 +11,14 @@ export default ({ action, isPaused }) => {
         <div style={styles}>
             <h1 style={{ textAlign: 'center' }}>Animations and Interactions</h1>
             <div style={{ width: '80%', margin: 'auto', marginTop: 30 }}>
-                <h2 style={{ color: 'yellow' }}>Animations</h2>
+                <h2 style={{ color: 'coral' }}>Animations</h2>
                 <ul style={{ fontSize: '2em' }}>
                     <li>The default sliding animation</li>
                     <li>Loader</li>
                 </ul>
             </div>
             <div style={{ width: '80%', margin: 'auto', marginTop: 30 }}>
-                <h2 style={{ color: 'yellow' }}>Interactions</h2>
+                <h2 style={{ color: 'coral' }}>Interactions</h2>
                 <ul style={{ fontSize: '2em' }}>
                     <li>Touch -  Next and Previous</li>
                     <li>Buffer - Image/video load</li>

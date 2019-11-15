@@ -1,0 +1,29 @@
+.App {
+	font-family: 'Karla', sans-serif;
+}
+
+code {
+	color: deeppink;
+}
+
+.slider {
+	height: 10px;
+	background: deeppink;
+	transform: scaleX(1);
+	margin-top: 20px;
+	width: 200px;
+	transform: scaleX(1);
+	animation-name: slide;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	transform-origin: left center;
+}
+
+@keyframes slide {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}

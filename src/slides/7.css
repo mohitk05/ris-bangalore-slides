@@ -2,7 +2,7 @@
 	width: 40px;
 	height: 40px;
 	margin: 20px;
-	background-color: #fff;
+	background-color: #16161d;
 
 	border-radius: 100%;
 	-webkit-animation: sk-scaleout 1s infinite ease-in-out;
@@ -34,7 +34,7 @@
 .spinner2 {
 	width: 40px;
 	height: 40px;
-	background-color: #fff;
+	background-color: #16161d;
 	margin: 20px;
 
 	-webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
